@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@font-face {
+    font-family: KarmaSuture;
+    src: url(..///fonts/KarmaSuture.ttf);
+}
+@font-face {
+    font-family: FakeReceipt;
+    src: url(..//fonts/fakereceipt.otf);
+}
+@font-face {
+    font-family: LibreBarcode128;
+    src: url(..//fonts/LibreBarcode128-Regular.ttf);
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
