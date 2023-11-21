@@ -32,7 +32,7 @@ const experienceData = [
 const Experience = () => {
   return (
     <div id='experience' className={`${styles.backgroundMain}`}>
-      <div className='md:max-w-sm max-w-xs mx-auto flex flex-col justify-center items-center rounded-lg bg-neutral-100 py-5'>
+      <div className='md:max-w-xs max-w-[225px] mx-auto flex flex-col justify-center items-center rounded-lg bg-neutral-100 py-5'>
         <h1 className={`${styles.headingMain} font-receipt dark:text-neutral-600`}>Experience</h1>
         <p className='text-neutral-600 dark:text-neutral-600 text-center pb-2 md:px-24 px-16 md:max-w-2xl max-w-md font-karma'>
           ************************
@@ -45,7 +45,7 @@ const Experience = () => {
         </p>
         <p className='text-4xl text-center pt-4 px-2 font-barcode bg-neutral-100 text-neutral-700'>LearnTimeline</p>
       </div>
-      <div className='sm:w-[768px] m-auto sm:pl-40 sm:px-36 px-20 py-12 flex flex-col'>
+      <div className='sm:w-[768px] m-auto sm:pl-40 sm:px-36 xs:px-12 px-8 py-12 flex flex-col'>
         {experienceData.map((item, idx) => (
           <ExperienceItem 
             key={idx} 
