@@ -19,7 +19,7 @@ const Hero = () => {
                     sequence={[
                         'Web Developer',
                         2000, // wait 2s before replacing with next
-                        'Front-end/Graphic Designer',
+                        'Frontend/Graphic Designer',
                         2000,
                         'Artist',
                         2000,
@@ -33,10 +33,10 @@ const Hero = () => {
                     />
                 </h2>
                 <div className='flex flex-row pt-4'>
-                    <FaInstagram size={20} className={`${styles.socialHover}`}/>
-                    <FaXTwitter size={20} className={`${styles.socialHover}`}/>
-                    <FaGithubAlt size={20} className={`${styles.socialHover}`}/>
-                    <SiLinkedin size={18} className={`${styles.socialHover}`}/>
+                    <a href="https://instagram.com/kh5tech" target='_blank' rel='noreferrer'><FaInstagram size={20} className={`${styles.socialHover}`}/></a>
+                    <a href="https://twitter.com/k7x1r4n" target='_blank' rel='noreferrer'><FaXTwitter size={20} className={`${styles.socialHover}`}/></a>
+                    <a href='https://github.com/krhr5' target='_blank' rel='noreferrer'><FaGithubAlt size={20} className={`${styles.socialHover}`}/></a> 
+                    <a href="https://www.linkedin.com/in/kiran-harrison" target='_blank' rel='noreferrer'><SiLinkedin size={18} className={`${styles.socialHover}`}/></a>
                 </div>
             </div>
         </div>
