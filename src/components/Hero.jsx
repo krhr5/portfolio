@@ -34,7 +34,7 @@ const Hero = () => {
                 </h2>
                 <div className='flex flex-row pt-4'>
                     <a href="https://instagram.com/kh5tech" target='_blank' rel='noreferrer'><FaInstagram size={20} className={`${styles.socialHover}`}/></a>
-                    <a href="https://twitter.com/k7x1r4n" target='_blank' rel='noreferrer'><FaXTwitter size={20} className={`${styles.socialHover}`}/></a>
+                    <a href="https://twitter.com/kh7dev" target='_blank' rel='noreferrer'><FaXTwitter size={20} className={`${styles.socialHover}`}/></a>
                     <a href='https://github.com/krhr5' target='_blank' rel='noreferrer'><FaGithubAlt size={20} className={`${styles.socialHover}`}/></a> 
                     <a href="https://www.linkedin.com/in/kiran-harrison" target='_blank' rel='noreferrer'><SiLinkedin size={18} className={`${styles.socialHover}`}/></a>
                 </div>

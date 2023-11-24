@@ -25,7 +25,7 @@ const Contact = () => {
             <label className='py-2 text-neutral-700 dark:text-neutral-200 font-karma'>Message</label>
             <textarea className={`${styles.inputFocus}`} rows='8' name='message'></textarea>
           </div>
-          <button type='submit' className={`mt-6 p-4 bg-neutral-300 rounded-lg w-[8em] hover:outline outline-neutral-500 dark:outline-neutral-300 font-karma bg-gradient-to-r from-yellow-300/80 to-rose-400/80`}>
+          <button type='submit' className={`mt-6 p-4 bg-neutral-300 rounded-lg w-[8em] hover:outline outline-neutral-500 dark:outline-neutral-400 font-karma bg-gradient-to-r from-yellow-300/80 to-rose-400/80`}>
             Send
           </button>
         </form>

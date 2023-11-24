@@ -19,7 +19,7 @@ const DesktopContext = createContext()
   return (
     <div>
       <button type='button' className='fixed top-2 right-2 p-1 z-40 md:hidden cursor-pointer bg-neutral-800 dark:bg-neutral-700 hover:bg-neutral-700 dark:hover:bg-neutral-600 hover:scale-105 ease-in duration-200 rounded-md'>
-        <LuMenu onClick={handleNav} size={25} className='stroke-neutral-300'/>
+        <LuMenu onClick={handleNav} size={25} className='stroke-neutral-100'/>
       </button>
       {
         nav ? (

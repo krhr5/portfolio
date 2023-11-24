@@ -9,7 +9,7 @@ const experienceData = [
       duration: '1 year +',
       credentials: 'Certificate',
       place: 'Saskatchewan Polytechnic',
-      details: 'Graduated with a certificate in the Website Design and Development program. Learned and became well-versed in the fundamental concepts of front-end web design, building a solid understanding of HTML, CSS and JavaScript.',
+      details: 'Graduated with a certificate in the Website Design and Development program. Learned and became well-versed in the fundamental concepts of front-end web design, building a solid foundation in HTML, CSS and JavaScript.',
   },
   {
     year: 'Dec. ' + 2022 + ' - ' + 'June ' + 2023,
@@ -25,7 +25,7 @@ const experienceData = [
     duration: '1 year +',
     credentials: 'Self-taught',
     place: 'Internet & personal resources',
-    details: 'Currently furthering my knowledge and expanding my skills in front-end web design, learning TailwindCSS, React JS, Vite and other frameworks. Building a good grasp of package management, while also expanding my knowledge of deployment and website security. The next goal is to start implementing backend code and server side projects.',
+    details: 'Currently furthering my knowledge and expanding my skills in front-end web design, learning TailwindCSS, React JS, Vite and other frameworks. Building a good grasp of package management, while also expanding my knowledge of deployment and website security.',
   },
 ]
 
@@ -37,8 +37,8 @@ const Experience = () => {
         <p className='text-neutral-600 dark:text-neutral-600 text-center pb-2 md:px-24 px-16 md:max-w-2xl max-w-md font-karma'>
           ************************
         </p>
-        <p className='text-neutral-600 dark:text-neutral-600 text-sm text-center pb-2 px-16 max-w-[20rem] font-receipt'>
-          A small timeline of my learning journey as a web developer. 
+        <p className='text-neutral-600 dark:text-neutral-600 text-sm pb-2 px-8 max-w-[20rem] font-receipt'>
+          A timeline of my learning journey as a frontend web developer. 
         </p>
         <p className='text-neutral-600 dark:text-neutral-600 text-center pb-2 md:px-24 px-16 md:max-w-2xl max-w-md font-karma'>
           ************************
